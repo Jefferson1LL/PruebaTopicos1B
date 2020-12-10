@@ -11,6 +11,15 @@ const routes: Routes = [
     redirectTo: 'home',
     pathMatch: 'full'
   },
+  {
+    path: 'make-diary',
+    loadChildren: () => import('./make-diary/make-diary.module').then( m => m.MakeDiaryPageModule)
+  },
+  {
+    path: 'edit-diary',
+    loadChildren: () => import('./edit-diary/edit-diary.module').then( m => m.EditDiaryPageModule)
+  },
+  
 ];
 
 @NgModule({

@@ -1,4 +1,4 @@
-#container {
+container {
   text-align: center;
 
   position: absolute;
@@ -6,6 +6,7 @@
   right: 0;
   top: 50%;
   transform: translateY(-50%);
+  background: cadetblue;
 }
 
 #container strong {
@@ -25,3 +26,7 @@
 #container a {
   text-decoration: none;
 }
+.header{
+  background: rgb(37, 160, 218);
+}
+
